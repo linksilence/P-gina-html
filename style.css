@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*--irmportação da fonte desejada através do google fonts--*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:#A67458;
+    color:#fff;
+    }
+
+.titulo_forte{
+    color:black;
+    }
+
+ .main_principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15%;
+    
+    }
+.img_principal {
+        width: 50%; 
+        height: auto; 
+      }
+
+.conteudo_textual{
+    width: 1800px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+   
+
+}
+
+.titulo_principal{
+    font-size: 150px;
+    font-family: "Lato", serif;
+  
+}
+
+.conteudo-textual-secundario{
+    font-size: 60px;
+    font-weight: 100px;
+    font-family: "Lato", serif;
+   
+}
+.links{
+    font-size: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.links__link
+{
+    background-color:black;
+    color: #fff;
+    font-family: "Lato", serif;
+    text-align: center;
+    border-radius: 16px;
+    padding: 21.5px;
+    text-decoration: none;    
+}

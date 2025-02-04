@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*--irmportação da fonte desejada através do google fonts--*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+body{
+    box-sizing: border-box;
+    background-color:#A67458;
+    color:#fff;
+    }
+
+.navegacao_menu
+{
+    font-family:"Lato", serif;
+    font-size: 80px;
+    display: flex;
+    gap:150px;
+    background-color:#6d3223;
+    padding: 2% 0 2% 10%;
+    font-weight: 700;
+}
+.navegacao_menu_opcao {
+    text-decoration: none; 
+    color: black;
+}
+
+
+.titulo_forte{
+    color:black;
+    }
+
+ .main_principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10%;
+    font-family:"Lato", serif;
+    }
+.img_principal {
+        width: 50%; 
+        height: auto; 
+      }
+.conteudo_textual{
+    width: 1800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+.titulo_principal{
+    font-size: 150px;
+  
+}
+
+.conteudo-textual-secundario{
+    font-size: 60px;
+    font-weight: 100px;
+}
+
+.links{
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 40px;
+}
+
+.texto_contato{
+    font-size: 70px;
+    font-weight: 900;
+}
+
+.links__link
+{
+    border: 15px ridge black;/*define a borda do botao*/
+    font-weight: 500;
+    color: #fff;
+    font-family: "Lato", serif;
+    text-align: center;
+    border-radius: 40px;
+    padding: 25.5px;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.links__link:hover
+{
+    background-color:#6d3223;
+    border-style: inset;
+    width: 700px;
+}
+
+.imagens_link
+{
+    width: 15%; 
+    height: auto; 
+}
+
+.rodape
+{
+    display:flex;
+    justify-content: center;
+    color: black;
+    font-size: 70px;
+    background-color: #6d3223;
+    padding: 50.5px;
+    border-radius: 15px;
+    font-family: "Lato", serif;
+    font-weight: 400;
+}
+

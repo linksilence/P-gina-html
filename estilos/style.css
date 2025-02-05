@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 /*--irmportação da fonte desejada através do google fonts--*/
 
+
+:root{
+    --cor-primaria::#6d3223;
+    --cor-secundaria: #fff;
+    --cor-terciaria: black;
+}
+
 *{
     margin: 0%;
     padding: 0%;
@@ -116,3 +123,24 @@ body{
     font-weight: 400;
 }
 
+.titulo_principal_about{
+    font-size: 150px;
+}
+
+.conteudo_textual_about
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    gap:70px;
+    width: 1700px;
+
+}
+
+.main_principal_about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6%;
+    font-family:"Lato", serif;
+    }

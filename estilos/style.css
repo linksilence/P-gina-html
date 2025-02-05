@@ -152,6 +152,8 @@ body{
 
 @media(max-width:1265px)
 {
+
+
     .main_principal{
         display: flex;
         flex-direction: column-reverse;
@@ -168,6 +170,18 @@ body{
     .conteudo_textual
     {
         width:auto;
+    }
+
+    .main_principal_about{
+        flex-direction: column-reverse;
+        padding: 5% 15% 15% 0;
+        gap: 2rem;
+    }
+    .conteudo_textual_about
+    {
+        align-items: center;
+        width: auto;
+        padding: 2% 5% 0 5%;
     }
  
 }

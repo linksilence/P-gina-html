@@ -3,7 +3,7 @@
 
 
 :root{
-    --cor-primaria::#6d3223;
+    --cor-primaria: #A67458;
     --cor-secundaria: #fff;
     --cor-terciaria: black;
 }
@@ -14,27 +14,32 @@
     }
 body{
     box-sizing: border-box;
-    background-color:#A67458;
+    background-color: var(--cor-primaria);
     color:#fff;
     }
 
-.navegacao_menu
+.navegacao
 {
     font-family:"Lato", serif;
-    font-size: 80px;
+    font-size: 1.3rem;
     display: flex;
-    gap:150px;
-    background-color:#6d3223;
-    padding: 2% 0 2% 10%;
-    font-weight: 700;
+    padding: 2% 15%;
+    font-weight: 400;
 }
+
+.navegacao_menu{
+    display: flex;
+
+    gap: 2rem;
+
+}
+    
 .navegacao_menu_opcao {
     text-decoration: none; 
-    color: black;
+    display: flex;
+    align-items: center;
+    color:#fff;
 }
-
-
-
 
 .titulo_forte{
     color:black;
@@ -42,72 +47,74 @@ body{
 
  .main_principal{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 10%;
+    align-items: center;
+    padding: 5% 15%;
     font-family:"Lato", serif;
+    gap: 1rem;
     }
 .img_principal {
         width: 50%; 
-        height: auto; 
       }
 .conteudo_textual{
-    width: 1800px;
+    width:50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 70px;
+    gap: 2rem;
 }
 
 .titulo_principal{
-    font-size: 150px;
+    font-size: 2.25rem;
   
 }
 
 .conteudo-textual-secundario{
-    font-size: 60px;
-    font-weight: 100px;
+    font-size: 1.3rem;
+    font-weight: 6.25rem;
 }
 
 .links{
-    font-size: 80px;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-    width: 800px;
-    gap: 40px;
+    align-items: center;
+    width: 50%;
+    gap: 32px;
 }
 
 .texto_contato{
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 1.3rem;
+    font-weight: 530;
+    
 }
 
 .links__link
 {
-    border: 15px ridge black;/*define a borda do botao*/
-    font-weight: 500;
+    border: 3px solid black;/*define a borda do botao*/
+    width: 50%;
+    font-weight: 600;
     color: #fff;
     font-family: "Lato", serif;
     text-align: center;
-    border-radius: 40px;
-    padding: 25.5px;
+    border-radius: 0.5rem;
+    padding: 5%;
     text-decoration: none; 
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 0.5rem;
 }
 
 .links__link:hover
 {
-    background-color:#6d3223;
+    background-color:#d76346;
     border-style: inset;
-    width: 700px;
+    width: 50%;
 }
 
 .imagens_link
 {
-    width: 15%; 
-    height: auto; 
+    width: 20%; 
 }
 
 .rodape
@@ -115,32 +122,55 @@ body{
     display:flex;
     justify-content: center;
     color: black;
-    font-size: 70px;
+    font-size: 1rem;
     background-color: #6d3223;
-    padding: 50.5px;
-    border-radius: 15px;
+    padding: 20px;
     font-family: "Lato", serif;
-    font-weight: 400;
-}
-
-.titulo_principal_about{
-    font-size: 150px;
-}
-
-.conteudo_textual_about
-{
-    display: flex;
-    flex-direction: column;
-    font-size: 70px;
-    gap:70px;
-    width: 1700px;
-
+    font-weight: 700;
 }
 
 .main_principal_about{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 6%;
+    padding: 5% 15% 15%;
     font-family:"Lato", serif;
     }
+.titulo_principal_about{
+    font-size: 2rem;
+}
+
+.conteudo_textual_about
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap:2rem;
+    width: 25rem;
+
+}
+
+@media(max-width:1265px)
+{
+    .main_principal{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 5% 5%;
+    }
+
+    .navegacao
+    {
+        padding:5% 0 1% 0%;
+
+        justify-content: center;
+    }
+
+    .conteudo_textual
+    {
+        width:auto;
+    }
+ 
+}
+
+
+
